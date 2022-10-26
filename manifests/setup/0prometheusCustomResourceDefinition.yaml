@@ -5524,7 +5524,7 @@ spec:
                     type: object
                 type: object
               scrapeInterval:
-                default: 30s
+                default: 1s
                 description: 'Interval between consecutive scrapes. Default: `30s`'
                 pattern: ^(0|(([0-9]+)y)?(([0-9]+)w)?(([0-9]+)d)?(([0-9]+)h)?(([0-9]+)m)?(([0-9]+)s)?(([0-9]+)ms)?)$
                 type: string
